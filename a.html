@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Pro | 0.05 MXN</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://pay.google.com/gp/p/js/pay.js" async onload="initGPay()"></script>
+</head>
+<body>
+
+    <div class="checkout-card">
+        <span class="merchant-pill">MERCHANT ID: BCR2DN5T535OJVAV</span>
+        <h2 class="title">Pago Digital</h2>
+        
+        <div class="price">0.05 <span>MXN</span></div>
+
+        <div id="gpay-container"></div>
+        <div class="loader" id="loader"></div>
+        <div id="status-box" class="status-box"></div>
+
+        <div class="footer-text">
+            Transacción segura vía Google Pay<br>
+            Aviso instantáneo configurado a Discord
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
